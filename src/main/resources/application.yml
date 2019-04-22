@@ -1,0 +1,40 @@
+spring:
+  profiles:
+    active: prod
+
+  ## mongo 连接公共配置
+  data:
+    mongodb:
+      min-connections-per-host: 1
+      max-connections-per-host: 8
+      threads-allowed-to-block-for-connection-multiplier: 5
+      server-selection-timeout: 30000
+      max-wait-time: 120000
+      max-connection-idel-time: 0
+      max-connection-life-time: 0
+      connect-timeout: 10000
+      socket-timeout: 0
+      socket-keep-alive: false
+      ssl-enabled: false
+      ssl-invalid-host-name-allowed: false
+      always-use-m-beans: false
+      heartbeat-socket-timeout: 20000
+      heartbeat-connect-timeout: 20000
+      min-heartbeat-frequency: 500
+      heartbeat-frequency: 10000
+
+## 日志输出路径以及切分日志文件大小
+logging:
+  path: ./logs
+  file:
+    max-size: 50MB
+
+## 块游标
+blockSignFile:
+  path: ./sign/
+  fileName: blockSign.txt
+
+## 时间戳格式化类型
+formatDate:
+  formatUTC: "yyyy-MM-dd'T'HH:mm:ss'Z'"
+  formatCST: "yyyy-MM-dd HH:mm:ss"

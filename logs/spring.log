@@ -1,0 +1,111 @@
+2019-04-20 01:15:04.229  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server 47.100.15.84:27018
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.8.2.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.net.ConnectException: Network is down (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_191]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_191]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_191]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_191]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_191]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_191]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar:na]
+	... 3 common frames omitted
+
+2019-04-20 01:15:14.882  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:559, serverValue:497}] to 47.100.15.84:27018
+2019-04-20 01:15:14.900  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=47.100.15.84:27018, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 9]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11710523}
+2019-04-20 03:05:32.328  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server 47.100.15.84:27018
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.8.2.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.net.ConnectException: Network is down (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_191]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_191]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_191]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_191]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_191]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_191]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar:na]
+	... 3 common frames omitted
+
+2019-04-20 03:05:42.614  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:561, serverValue:506}] to 47.100.15.84:27018
+2019-04-20 03:05:42.633  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=47.100.15.84:27018, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 9]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11865649}
+2019-04-20 06:41:48.031  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server 47.100.15.84:27018
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.8.2.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.net.ConnectException: Network is down (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_191]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_191]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_191]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_191]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_191]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_191]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar:na]
+	... 3 common frames omitted
+
+2019-04-20 06:41:58.926  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:563, serverValue:514}] to 47.100.15.84:27018
+2019-04-20 06:41:58.935  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=47.100.15.84:27018, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 9]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8512710}
+2019-04-20 14:11:27.940  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server 47.100.15.84:27018
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.8.2.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.net.ConnectException: Network is unreachable (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_191]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_191]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_191]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_191]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_191]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_191]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar:na]
+	... 3 common frames omitted
+
+2019-04-20 14:11:48.233  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:566, serverValue:525}] to 47.100.15.84:27018
+2019-04-20 14:11:48.241  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=47.100.15.84:27018, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 9]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6382736}
+2019-04-20 17:31:38.862  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:567, serverValue:540}] to 47.100.15.84:27018
+2019-04-20 18:07:55.543  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:568, serverValue:546}] to 47.100.15.84:27018
+2019-04-20 19:35:36.501  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:569, serverValue:551}] to 47.100.15.84:27018
+2019-04-20 22:08:03.370  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server 47.100.15.84:27018
+
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.internal.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:537) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:428) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:289) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:83) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:33) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:106) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:63) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.8.2.jar:na]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method) ~[na:1.8.0_191]
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116) ~[na:1.8.0_191]
+	at java.net.SocketInputStream.read(SocketInputStream.java:171) ~[na:1.8.0_191]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[na:1.8.0_191]
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:89) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:554) ~[mongodb-driver-core-3.8.2.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:425) ~[mongodb-driver-core-3.8.2.jar:na]
+	... 9 common frames omitted
+
+2019-04-20 22:08:13.450  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:571, serverValue:561}] to 47.100.15.84:27018
+2019-04-20 22:08:13.463  INFO 20408 --- [cluster-ClusterId{value='5c98dcb37b5c274fb800026a', description='null'}-47.100.15.84:27018] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=47.100.15.84:27018, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 9]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9413289}
+2019-04-20 22:48:35.616  INFO 20408 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-20 22:48:35.648  INFO 20408 --- [Thread-8] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:536}] to 47.100.15.84:27018 because there was a socket exception raised on another connection from this pool.
